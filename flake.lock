@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "lonesome-stranger": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1673200864,
+        "narHash": "sha256-f630R1oXtUGiHs8ySHYp3/jC1shhK8FzPSJa4j7hqA0=",
+        "owner": "the-argus",
+        "repo": "lonesome-stranger",
+        "rev": "9ff2a30deec04dbeec7fdc08c02fc78cc5c817f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "the-argus",
+        "repo": "lonesome-stranger",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1673056779,
+        "narHash": "sha256-+Mjz9puicCHhik7QQxm9SviN0T8cLznIXqMTAoau4dA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8c03897e2622f4bc8060370736df431d5942522c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1673056779,
+        "narHash": "sha256-+Mjz9puicCHhik7QQxm9SviN0T8cLznIXqMTAoau4dA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8c03897e2622f4bc8060370736df431d5942522c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "lonesome-stranger": "lonesome-stranger",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
