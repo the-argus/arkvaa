@@ -17,10 +17,12 @@
   in {
     devShell = genSystems (system:
       pkgs.${system}.mkShell {
-        packages = [
+        packages = with pkgs.${system}; [
           (pkgs.${system}.python310.withPackages (_: [
             lonesome-stranger.packages.${system}.dungeonsheets
           ]))
+          pdftk
+          texlive.combined.scheme-basic
         ];
       });
   };
